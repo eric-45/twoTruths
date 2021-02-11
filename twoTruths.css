@@ -1,0 +1,44 @@
+.header {
+    font-size: xx-large;
+    color:red;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.container > * {
+    display:inline-block;
+}
+p#first {
+    font-size: xx-large;
+    padding-top: 4%;
+    padding-left: 15%;
+    border-style: solid;
+    background-color: #f2bc94;
+}
+p#second {
+    font-size: xx-large;
+    color:yellow;
+    padding-top: 4%;
+    padding-left: 15%;
+    border-style: solid;
+    background-color: #00154f;
+}
+p#third {
+    font-size: xx-large;
+    padding-top: 4%;
+    padding-left: 15%;
+    border-style: solid;
+    background-color: #f4af1b;
+}
+
+@media (max-width: 500px) {
+    body {
+    background-color: turquoise;
+    }
+
+@media (max-width: 700px) {
+    body {
+        background-color: tomato;
+    }
+}
+}
